@@ -168,33 +168,33 @@
 //8:220(-855) 801(846)
 //10:255(-752) 861(1022)
 //12:125(-1133) 746(685)
-#define cRRCoxaMin1    -750
-#define cRRCoxaMax1    750
-#define cRRFemurMin1    -1000
-#define cRRFemurMax1    1000
-#define cRRTibiaMin1    -1020
-#define cRRTibiaMax1    680
+#define cRRCoxaMin    -75
+#define cRRCoxaMax    75
+#define cRRFemurMin    -100
+#define cRRFemurMax    100
+#define cRRTibiaMin    -102
+#define cRRTibiaMax    68
 
-#define cRFCoxaMin1    -750    //Mechanical limits of the Right Front Leg, decimals = 1
-#define cRFCoxaMax1     750
-#define cRFFemurMin1    -1000
-#define cRFFemurMax1    1000
-#define cRFTibiaMin1    -1020
-#define cRFTibiaMax1    680
+#define cRFCoxaMin    -75    //Mechanical limits of the Right Front Leg, decimals = 1
+#define cRFCoxaMax     75
+#define cRFFemurMin    -100
+#define cRFFemurMax    100
+#define cRFTibiaMin    -102
+#define cRFTibiaMax    68
 
-#define cLRCoxaMin1    -750    //Mechanical limits of the Left Rear Leg, decimals = 1
-#define cLRCoxaMax1     750
-#define cLRFemurMin1     -1000
-#define cLRFemurMax1     1000
-#define cLRTibiaMin1    -1020
-#define cLRTibiaMax1     680
+#define cLRCoxaMin    -75    //Mechanical limits of the Left Rear Leg, decimals = 1
+#define cLRCoxaMax     75
+#define cLRFemurMin     -100
+#define cLRFemurMax     100
+#define cLRTibiaMin    -102
+#define cLRTibiaMax     68
 
-#define cLFCoxaMin1     -750    //Mechanical limits of the Left Front Leg, decimals = 1
-#define cLFCoxaMax1     750
-#define cLFFemurMin1     -1000
-#define cLFFemurMax1     1000
-#define cLFTibiaMin1    -1020
-#define cLFTibiaMax1     680
+#define cLFCoxaMin     -75    //Mechanical limits of the Left Front Leg, decimals = 1
+#define cLFCoxaMax     75
+#define cLFFemurMin     -100
+#define cLFFemurMax     100
+#define cLFTibiaMin    -102
+#define cLFTibiaMax     68
 
 //--------------------------------------------------------------------
 //[Joint offsets]
@@ -227,10 +227,10 @@
 
 //--------------------------------------------------------------------
 //[BODY DIMENSIONS]
-#define cRRCoxaAngle1   -450   //Default Coxa setup angle, decimals = 1
-#define cRFCoxaAngle1    450    //Default Coxa setup angle, decimals = 1
-#define cLRCoxaAngle1    -450   //Default Coxa setup angle, decimals = 1
-#define cLFCoxaAngle1    450    //Default Coxa setup angle, decimals = 1
+#define cRRCoxaAngle   -45   //Default Coxa setup angle, decimals = 1
+#define cRFCoxaAngle    45    //Default Coxa setup angle, decimals = 1
+#define cLRCoxaAngle    -45   //Default Coxa setup angle, decimals = 1
+#define cLFCoxaAngle    45    //Default Coxa setup angle, decimals = 1
 
 #define X_COXA          65      // MM between front and back legs /2
 #define Y_COXA          65      // MM between front/back legs /2

@@ -216,6 +216,7 @@
 #define cXXFemurLength    66    // MEASURE THIS!!! Guessed now :-)
 #define cXXTibiaLength    133  // MEASURE THIS!!! Guessed now :-)
 
+#ifdef PER_LEG_LENGTHS
 #define cRRCoxaLength     cXXCoxaLength	    //Right Rear leg
 #define cRRFemurLength    cXXFemurLength
 #define cRRTibiaLength    cXXTibiaLength
@@ -244,7 +245,7 @@
 #define cLFCoxaLength     cXXCoxaLength	    //Left front leg
 #define cLFFemurLength    cXXFemurLength
 #define cLFTibiaLength    cXXTibiaLength
-
+#endif
 
 
 //--------------------------------------------------------------------
